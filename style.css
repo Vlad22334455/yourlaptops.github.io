@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Ralewey&display=swap');
+
+
+body{
+    font-family: Ralewey, serif;
+    background: linear-gradient(360deg, #000000 0%, #ffffff 100%);
+}
+.nav-link{
+    color: wheat;
+}
+.navbar-nav .nav-link.active{
+    color:rgb(248, 48, 48);
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-toggler{
+    background-color: rgb(238, 42, 42);
+}
+
+.card{
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #898585 0%, #ffffff 100%);
+
+}
+
+.sidebar{
+    background: linear-gradient(360deg, #898585 0%, #ffffff 100%);
+
+}
+
+.sc h1 {
+    text-align: center;
+    background: linear-gradient(180deg, #c4c4c4 0%, #000000 60%);
+    color: #ffffff;
+}
+.footer-text{
+    color: #ffffff;
+    margin: auto auto;
+}
+hr{
+    color: white;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    background: linear-gradient(180deg, #c4c4c4 0%, #000000 85%);
+    color: #ffffff;
+}
+
+#helper{
+    color: white;
+}
+.numb{
+    color: rgb(131, 131, 131);
+}
+
+.call-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.call-anim:hover{
+    cursor: pointer;
+}
+.im{
+    display: block;
+    position:relative;
+}
+
+.numb{
+    display: none;
+}
+.im:hover .numb{
+    display: block;
+}
+
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@media(max-width:700px){
+    .numb{
+        color: rgb(58, 58, 58);
+        display: block;
+    }
+    
+}
+.btn-primary{
+    color: white;
+    background-color: #000000;
+    
+    border-color: #898585;
+}
+
+.btn-primary:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #898585;
+
+}
